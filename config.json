@@ -1,0 +1,127 @@
+{
+    "OPENAI_API_KEY" : "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",
+    "COMMON_FEATURES" : ["Air Conditioner", "Security", "Furniture", "Balcony", "Elevator", "Heating System", "Internet"],
+    "feature_mapping" : {
+        "bars" : {
+            "Air conditioning": "Air Conditioner",
+            "Building security": "Security",
+            "Furniture": "Furniture",
+            "Open balcony":"Balcony",
+            "Elevator":"Elevator",
+            "Heating system":"Heating System",
+            "Wi-Fi":"Internet"
+        },
+        "myrealty" : {
+            "Air-conditioner": "Air Conditioner",
+            "Security system": "Security",
+            "Furniture": "Furniture",
+            "Balcony":"Balcony",
+            "Elevator":"Elevator",
+            "Heating":"Heating System",
+            "Internet":"Internet"
+        },
+        "bnakaran" : {
+            "air-conditioner": "Air Conditioner",
+            "кондиционер" : "Air Conditioner",
+            "օդորակիչ" : "Air Conditioner",
+            
+            "sec. sys.": "Security",
+            "անվ. համ." : "Security",
+            
+            "Furniture": "Furniture",
+            "կահավորված" : "Furniture",
+            "с мебелью": "Furniture",
+            
+            "Balcony":"Balcony",
+            "բաց պատշգամբ": "Balcony",
+            "открытый балкон" : "Balcony",
+            
+            "Elevator":"Elevator",
+            "վերելակ": "Elevator", 
+            "лифт": "Elevator",
+            
+            "Heating":"Heating System",
+            
+            "Internet":"Internet",
+            "ինտերնետ": "Internet",
+            "интернет": "Internet"
+            
+        }
+    },
+    "building_type_mapping" : {
+        "bars" : { 
+            "Stone" : "Stone",
+            "Panel" : "Panel",
+            "Monolithic" : "Monolit",
+            "Stalinka c/o" : "Other",
+            "Stalinka w/o" : "Other",
+            "Special project" : "Other",
+            "New building":"Other"
+        },
+        "bnakaran" : {
+            "stone" : "Stone",
+            "wall building" : "Panel",
+            "in situ concrete" : "Monolit",
+            "null" : "Other"
+        }
+    },
+
+    "condition_type_mapping" : {
+        "bnakaran" : {
+            "renovated": "Good Condition",
+            "renovation needed": "Good Condition",
+            "renovated, uninhabited" : "New/Excellent Condition",
+            "euro renovated": "New/Excellent Condition",
+            "normal": "Good Condition",
+            "կապ. վերանորոգված": "Good Condition",
+            "not renovated": "Needs Renovation/Repair",
+            "կապ. վերան. չբնակ.": "New/Excellent Condition", 
+            "partly renovated": "Needs Renovation/Repair",
+            "needs renovation": "Needs Renovation/Repair",
+            "old renovation": "Needs Renovation/Repair",
+            "in renovation now": "Other",
+            "капремонт": "Good Condition"
+        },
+        "myrealty" : {
+            "Zero condition": "Needs Renovation/Repair",
+            "Newly repaired": "New/Excellent Condition",
+            "Good": "Good Condition"
+        },
+        "bars" : {
+            "Without renovation": "Needs Renovation/Repair",
+            "Major overhaul": "Good Condition",
+            "Old major overhaul": "Needs Renovation/Repair",
+            "Redecoration": "Other",
+            "Partial renovation": "Needs Renovation/Repair"
+        }
+    },
+    "significant_places" : { 
+        "opera" : "(40.18600, 44.51509)",
+        "malibu" : "(40.18306,44.50799)",
+        "aua" : "(40.19243,44.50446)",
+        "zvartnoc" : "(40.1523,44.4005)",
+        "dalma": "(40.1791, 44.48846)",
+        "yerevan_mall": "(40.1554014, 44.5004910)",
+        
+        "shumyan_cemetery": "(40.19808, 44.45623)",
+        "nork_cemetery": "(40.19281, 44.54679)",
+        "central_cemetery": "(40.1508, 44.5389)",
+        "davtashen_cemetery": "(40.22316, 44.47704)",
+        "zeytun_cemetery": "(40.21245, 44.5462)",
+        "yerablur": "(40.15946, 44.4536)",
+        "avan_cemetery": "(40.20994, 44.57205)",
+        
+        "baghramyan_subway": "(40.19724, 44.49378)",
+        "barekamutyun_subway": "(40.1969400, 44.4950315)",
+        "yeritasardakan_subway": "(40.1862126, 44.5198850)",
+        "zoravar_subway" : "(40.17122, 44.51217)",
+        "sasunci_subway" : "(40.1546043, 44.5071543)",
+        "gorcarain_subway" : "(40.14107, 44.49867)",
+        "shengavit_subway" : "(40.1449161, 44.4858505)",
+        "gergin_subway" : "(40.1502947, 44.4826370)",
+        "charbakh_subway" : "(40.1407315, 44.4707780)",
+        
+        "avan" : "(40.21883, 44.58259)",
+        "massiv" : "(40.1419, 44.518)"
+    }
+}
