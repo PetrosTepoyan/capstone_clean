@@ -14,7 +14,7 @@ To copy images from the scraping results into another folder (data2 for example)
 To make the data consistent:\
 `python3 make_data_consistent.py -data_dir "data2/data.csv" -images_dir "data2/images"`
 
-The scraping is not consistent when reproducing - apartments get added and removed from the websites.\
+The scraping is not consistent when reproducing - apartments get added and removed from the websites.
 
 To train the model on M1 mac, run this\
 `python3 train_model.py -device "mps:0" -data data_tiny -images images_tiny -model v3`
